@@ -30,7 +30,10 @@ print(phonebook_dictionary)
 # Get the phone number by providing a name
 print("Max's phone number is:", phonebook_dictionary["Max"])
 
+# print("Name       Phone\n---------------------")
+print(f"{'Name':10s} Phone\n{'':-<21s}")  # Same as the line above
 for name, phone in phonebook_dictionary.items():
     # print("Name:", name, "Phone:", phone)
-    print(f"Name: {name:10s} Phone: {phone}")
+    # print(f"Name: {name:10s} Phone: {phone}")
+    print(f"{name:10s} {phone}")
 
