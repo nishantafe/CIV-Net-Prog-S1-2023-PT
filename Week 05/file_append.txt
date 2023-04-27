@@ -45,3 +45,4 @@ This is a newly added (appended) line.
 This is a newly added (appended) line.
 This is a newly added (appended) line.
 This is a newly added (appended) line.
+This is a newly added (appended) line.
