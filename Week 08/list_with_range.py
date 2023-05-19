@@ -16,5 +16,5 @@ for number in range(0, 11, 2):  # Start=0 | End | Steps=1
 """
 subnet_prefix = input("Enter a subnet prefix (example 198.168.0): ")
 # list = [APPENDING ZONE    LOOPING ZONE]
-ips_list = [subnet_prefix + "." + str(num) for num in range(11, 256, 2)]
+ips_list = [subnet_prefix + "." + str(num) for num in range(11, 50, 2)]
 print(ips_list)
